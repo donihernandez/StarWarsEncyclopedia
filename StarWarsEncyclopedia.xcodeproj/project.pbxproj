@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25528412981164500D86782 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25528402981164500D86782 /* People.swift */; };
+		F25528432981183600D86782 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25528422981183600D86782 /* Film.swift */; };
+		F25528452981189300D86782 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25528442981189300D86782 /* Planet.swift */; };
+		F2552847298118F100D86782 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2552846298118F100D86782 /* Species.swift */; };
+		F25528492981196600D86782 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25528482981196600D86782 /* Vehicle.swift */; };
+		F255284B298119FD00D86782 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255284A298119FD00D86782 /* Starship.swift */; };
 		F288FBD72976406A009B9E3F /* StarWarsEncyclopediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288FBD62976406A009B9E3F /* StarWarsEncyclopediaApp.swift */; };
 		F288FBD92976406A009B9E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288FBD82976406A009B9E3F /* ContentView.swift */; };
 		F288FBDB2976406D009B9E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F288FBDA2976406D009B9E3F /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F25528402981164500D86782 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		F25528422981183600D86782 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		F25528442981189300D86782 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		F2552846298118F100D86782 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		F25528482981196600D86782 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F255284A298119FD00D86782 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
 		F288FBD32976406A009B9E3F /* StarWarsEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F288FBD62976406A009B9E3F /* StarWarsEncyclopediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsEncyclopediaApp.swift; sourceTree = "<group>"; };
 		F288FBD82976406A009B9E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F255283F2981163900D86782 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F25528402981164500D86782 /* People.swift */,
+				F25528422981183600D86782 /* Film.swift */,
+				F25528442981189300D86782 /* Planet.swift */,
+				F2552846298118F100D86782 /* Species.swift */,
+				F25528482981196600D86782 /* Vehicle.swift */,
+				F255284A298119FD00D86782 /* Starship.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F288FBCA2976406A009B9E3F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +76,7 @@
 		F288FBD52976406A009B9E3F /* StarWarsEncyclopedia */ = {
 			isa = PBXGroup;
 			children = (
+				F255283F2981163900D86782 /* Model */,
 				F288FBD62976406A009B9E3F /* StarWarsEncyclopediaApp.swift */,
 				F288FBD82976406A009B9E3F /* ContentView.swift */,
 				F288FBDA2976406D009B9E3F /* Assets.xcassets */,
@@ -138,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F288FBD92976406A009B9E3F /* ContentView.swift in Sources */,
+				F2552847298118F100D86782 /* Species.swift in Sources */,
+				F25528432981183600D86782 /* Film.swift in Sources */,
+				F25528412981164500D86782 /* People.swift in Sources */,
+				F25528492981196600D86782 /* Vehicle.swift in Sources */,
 				F288FBD72976406A009B9E3F /* StarWarsEncyclopediaApp.swift in Sources */,
+				F25528452981189300D86782 /* Planet.swift in Sources */,
+				F255284B298119FD00D86782 /* Starship.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
