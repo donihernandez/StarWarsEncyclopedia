@@ -10,7 +10,6 @@
 		F22EBEEB298461130047AE8E /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEEA298461130047AE8E /* APIBuilder.swift */; };
 		F22EBEEF29846AD60047AE8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEEE29846AD60047AE8E /* Constants.swift */; };
 		F22EBEF129846B3A0047AE8E /* PeopleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEF029846B3A0047AE8E /* PeopleEndpoint.swift */; };
-		F22EBEF429846FC00047AE8E /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEF329846FC00047AE8E /* PeopleService.swift */; };
 		F22EBEF72984706B0047AE8E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEF62984706B0047AE8E /* APIError.swift */; };
 		F25528412981164500D86782 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25528402981164500D86782 /* People.swift */; };
 		F25528432981183600D86782 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25528422981183600D86782 /* Film.swift */; };
@@ -22,13 +21,14 @@
 		F288FBD92976406A009B9E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288FBD82976406A009B9E3F /* ContentView.swift */; };
 		F288FBDB2976406D009B9E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F288FBDA2976406D009B9E3F /* Assets.xcassets */; };
 		F288FBDE2976406D009B9E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F288FBDD2976406D009B9E3F /* Preview Assets.xcassets */; };
+		F2EE0C5E2984B1AC007FC5D7 /* FilmEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C5D2984B1AC007FC5D7 /* FilmEndpoint.swift */; };
+		F2EE0C6C2984CA80007FC5D7 /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C6B2984CA80007FC5D7 /* GenericService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F22EBEEA298461130047AE8E /* APIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBuilder.swift; sourceTree = "<group>"; };
 		F22EBEEE29846AD60047AE8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F22EBEF029846B3A0047AE8E /* PeopleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleEndpoint.swift; sourceTree = "<group>"; };
-		F22EBEF329846FC00047AE8E /* PeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
 		F22EBEF62984706B0047AE8E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		F25528402981164500D86782 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		F25528422981183600D86782 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
@@ -41,6 +41,8 @@
 		F288FBD82976406A009B9E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F288FBDA2976406D009B9E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F288FBDD2976406D009B9E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2EE0C5D2984B1AC007FC5D7 /* FilmEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmEndpoint.swift; sourceTree = "<group>"; };
+		F2EE0C6B2984CA80007FC5D7 /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenericService.swift; path = ../Protocols/GenericService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,7 @@
 		F22EBEF229846F6D0047AE8E /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F22EBEF329846FC00047AE8E /* PeopleService.swift */,
+				F2EE0C6B2984CA80007FC5D7 /* GenericService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F22EBEF029846B3A0047AE8E /* PeopleEndpoint.swift */,
+				F2EE0C5D2984B1AC007FC5D7 /* FilmEndpoint.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -226,8 +229,9 @@
 				F25528492981196600D86782 /* Vehicle.swift in Sources */,
 				F22EBEEF29846AD60047AE8E /* Constants.swift in Sources */,
 				F22EBEEB298461130047AE8E /* APIBuilder.swift in Sources */,
-				F22EBEF429846FC00047AE8E /* PeopleService.swift in Sources */,
 				F288FBD72976406A009B9E3F /* StarWarsEncyclopediaApp.swift in Sources */,
+				F2EE0C6C2984CA80007FC5D7 /* GenericService.swift in Sources */,
+				F2EE0C5E2984B1AC007FC5D7 /* FilmEndpoint.swift in Sources */,
 				F25528452981189300D86782 /* Planet.swift in Sources */,
 				F255284B298119FD00D86782 /* Starship.swift in Sources */,
 				F22EBEF72984706B0047AE8E /* APIError.swift in Sources */,

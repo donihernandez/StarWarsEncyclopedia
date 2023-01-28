@@ -25,6 +25,6 @@ extension PeopleAPI: APIBuilder {
     }
     
     var urlRequest: URLRequest {
-        return URLRequest(url: BASE_URL.appendingPathComponent(self.path))
+        return URLRequest(url: self.baseURL.appendingPathComponent(self.path))
     }
 }
