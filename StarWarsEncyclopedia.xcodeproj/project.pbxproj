@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2051B3E2985D63300859942 /* SpeciesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2051B3D2985D63300859942 /* SpeciesEndpoint.swift */; };
+		F2051B402985D6E000859942 /* SpeciesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2051B3F2985D6E000859942 /* SpeciesService.swift */; };
+		F2051B422985D89E00859942 /* StarshipEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2051B412985D89E00859942 /* StarshipEndpoint.swift */; };
+		F2051B442985D91C00859942 /* StarshipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2051B432985D91C00859942 /* StarshipService.swift */; };
 		F22EBEEB298461130047AE8E /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEEA298461130047AE8E /* APIBuilder.swift */; };
 		F22EBEEF29846AD60047AE8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEEE29846AD60047AE8E /* Constants.swift */; };
 		F22EBEF129846B3A0047AE8E /* PeopleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBEF029846B3A0047AE8E /* PeopleEndpoint.swift */; };
@@ -28,9 +32,15 @@
 		F2EE0C772984D29C007FC5D7 /* FilmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C762984D29C007FC5D7 /* FilmService.swift */; };
 		F2EE0C792984D334007FC5D7 /* VehicleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C782984D334007FC5D7 /* VehicleService.swift */; };
 		F2EE0C7B2984D376007FC5D7 /* VehicleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C7A2984D376007FC5D7 /* VehicleEndpoint.swift */; };
+		F2EE0C7F2984D7C1007FC5D7 /* PlanetEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C7E2984D7C1007FC5D7 /* PlanetEndpoint.swift */; };
+		F2EE0C812984D82D007FC5D7 /* PlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE0C802984D82D007FC5D7 /* PlanetService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2051B3D2985D63300859942 /* SpeciesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesEndpoint.swift; sourceTree = "<group>"; };
+		F2051B3F2985D6E000859942 /* SpeciesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesService.swift; sourceTree = "<group>"; };
+		F2051B412985D89E00859942 /* StarshipEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipEndpoint.swift; sourceTree = "<group>"; };
+		F2051B432985D91C00859942 /* StarshipService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipService.swift; sourceTree = "<group>"; };
 		F22EBEEA298461130047AE8E /* APIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBuilder.swift; sourceTree = "<group>"; };
 		F22EBEEE29846AD60047AE8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F22EBEF029846B3A0047AE8E /* PeopleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleEndpoint.swift; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		F2EE0C762984D29C007FC5D7 /* FilmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmService.swift; sourceTree = "<group>"; };
 		F2EE0C782984D334007FC5D7 /* VehicleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleService.swift; sourceTree = "<group>"; };
 		F2EE0C7A2984D376007FC5D7 /* VehicleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEndpoint.swift; sourceTree = "<group>"; };
+		F2EE0C7E2984D7C1007FC5D7 /* PlanetEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetEndpoint.swift; sourceTree = "<group>"; };
+		F2EE0C802984D82D007FC5D7 /* PlanetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,9 @@
 				F2EE0C742984D210007FC5D7 /* PeopleService.swift */,
 				F2EE0C762984D29C007FC5D7 /* FilmService.swift */,
 				F2EE0C782984D334007FC5D7 /* VehicleService.swift */,
+				F2EE0C802984D82D007FC5D7 /* PlanetService.swift */,
+				F2051B3F2985D6E000859942 /* SpeciesService.swift */,
+				F2051B432985D91C00859942 /* StarshipService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 				F22EBEF029846B3A0047AE8E /* PeopleEndpoint.swift */,
 				F2EE0C5D2984B1AC007FC5D7 /* FilmEndpoint.swift */,
 				F2EE0C7A2984D376007FC5D7 /* VehicleEndpoint.swift */,
+				F2EE0C7E2984D7C1007FC5D7 /* PlanetEndpoint.swift */,
+				F2051B3D2985D63300859942 /* SpeciesEndpoint.swift */,
+				F2051B412985D89E00859942 /* StarshipEndpoint.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -244,10 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2051B422985D89E00859942 /* StarshipEndpoint.swift in Sources */,
 				F2EE0C792984D334007FC5D7 /* VehicleService.swift in Sources */,
 				F288FBD92976406A009B9E3F /* ContentView.swift in Sources */,
 				F2552847298118F100D86782 /* Species.swift in Sources */,
 				F25528432981183600D86782 /* Film.swift in Sources */,
+				F2051B442985D91C00859942 /* StarshipService.swift in Sources */,
 				F25528412981164500D86782 /* People.swift in Sources */,
 				F2EE0C752984D210007FC5D7 /* PeopleService.swift in Sources */,
 				F22EBEF129846B3A0047AE8E /* PeopleEndpoint.swift in Sources */,
@@ -256,11 +276,15 @@
 				F22EBEEF29846AD60047AE8E /* Constants.swift in Sources */,
 				F22EBEEB298461130047AE8E /* APIBuilder.swift in Sources */,
 				F288FBD72976406A009B9E3F /* StarWarsEncyclopediaApp.swift in Sources */,
+				F2EE0C812984D82D007FC5D7 /* PlanetService.swift in Sources */,
+				F2EE0C7F2984D7C1007FC5D7 /* PlanetEndpoint.swift in Sources */,
 				F2EE0C6C2984CA80007FC5D7 /* GenericService.swift in Sources */,
 				F2EE0C5E2984B1AC007FC5D7 /* FilmEndpoint.swift in Sources */,
+				F2051B402985D6E000859942 /* SpeciesService.swift in Sources */,
 				F25528452981189300D86782 /* Planet.swift in Sources */,
 				F255284B298119FD00D86782 /* Starship.swift in Sources */,
 				F2EE0C732984CF4F007FC5D7 /* PeopleViewModel.swift in Sources */,
+				F2051B3E2985D63300859942 /* SpeciesEndpoint.swift in Sources */,
 				F22EBEF72984706B0047AE8E /* APIError.swift in Sources */,
 				F2EE0C7B2984D376007FC5D7 /* VehicleEndpoint.swift in Sources */,
 			);

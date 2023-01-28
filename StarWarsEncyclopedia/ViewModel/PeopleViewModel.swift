@@ -14,12 +14,7 @@ protocol PeopleViewModel {
 
 class PeopleViewModelImpl: ObservableObject, PeopleViewModel {
     
-    private let service: PeopleService
-    
-    init(service: PeopleService) {
-        self.service = service
-    }
-    
     func getAllPeople() {
+        
     }
 }
