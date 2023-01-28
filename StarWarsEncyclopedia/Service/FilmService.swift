@@ -37,6 +37,5 @@ struct FilmService: GenericService {
                 
             }
             .eraseToAnyPublisher()
-        
     }
 }
